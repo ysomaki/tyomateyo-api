@@ -1,6 +1,6 @@
 CREATE TABLE IF NOT EXISTS "user"
 (
-    id   INT PRIMARY KEY,
-    name VARCHAR(255) NOT NULL,
-    password VARCHAR(255) NOT NULL
+    ID       INT PRIMARY KEY,
+    Name     VARCHAR(255) NOT NULL,
+    Password VARCHAR(255) NOT NULL
 );
