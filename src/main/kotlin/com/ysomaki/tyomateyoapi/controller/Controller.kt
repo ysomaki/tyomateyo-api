@@ -11,7 +11,7 @@ import java.util.*
 class Controller(
     private val userRepository: UserRepository
 ) {
-    @GetMapping("/{id}")
+    @GetMapping("/accounts/{id}")
     fun findOneUser(@PathVariable id: Int): Optional<User> {
         println(userRepository.findById(id))
         return userRepository.findById(id)
